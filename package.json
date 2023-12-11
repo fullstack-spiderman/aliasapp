@@ -5,6 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "e2e": "cypress open",
+    "cypress:open": "cypress open",
+    "e2e:open": "cypress open",
+    "cypress:run": "cypress run",
+    "e2e:run": "cypress run",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

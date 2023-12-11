@@ -23,4 +23,10 @@ export default defineConfig({
     port: 3000,
     cors: true,
   },
+  test: {
+    coverage: {
+      provider: 'v8', // 'istanbul'
+      reporter: ['text', 'json', 'html'],
+    },
+  },
 })
